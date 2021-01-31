@@ -1,60 +1,3 @@
-/*
-Logical operators:
-&& AND
-condition 1 is true and condition 2 is also true 
-
-|| OR
-condition 1 is true OR condition 2 is true
-
-*/
-
-
-// example:
-
-// var age = prompt('what is your age');
-
-// console.log(age);
-
-// if (age >= 18 && age<=35){
-//     document.write('welcome ');
-// }else if(age < 18 || age>35){
-//     document.write('sorry you can\'t enter');
-// }else{
-//     document.write('not allowed');
-// }
-
-
-// ****** DEMO ******
-
-
-/*
-
-To do list:
-
--add image based on user input ask the user what size he wants
-
--keep asking the user for a valid input he can only answer with big or small
-
--Ask how many pictures does he/she wants and show them on the page
-
-*/
-
-
-// for(var i = 0 ; i<= 10 ; i=i+2){
-//     // i = 0
-
-//     document.write('<br>'+'hello ');
-// }
-
-// var i = 0;
-// while(i < 5){
-
-//     document.write('hello')
-//      i = i +1;
-//     //  i++
-// }
-
-
 
 // function declaration
 
@@ -87,13 +30,18 @@ function welcomeMessage() {
 
 // console.log(message);
 
-
+// we can call them here or in the HTML page
+// welcomeMessage()
 
 
 
 
 // function expression:
+
 var showImage = function() {
+    // for image
+
+    // input
     var order = prompt('what size do you want big or small?');
     
     while (order !== 'big' && order !== 'small') {
@@ -120,15 +68,13 @@ var showImage = function() {
         result = result + room;
     }
     
-    
+    // output
     return document.write(result);
 
 
 }
 
-
-// for image
-
+// showImage();
 
 
 
@@ -141,6 +87,8 @@ var showImage = function() {
 // }
 
 // console.log( sum() );
+
+
 
 
 

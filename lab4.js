@@ -66,44 +66,60 @@ true or false
 
 
 
+// notes for previous labs:
 
-// var message='';
+/*
+Logical operators:
+&& AND
+condition 1 is true and condition 2 is also true 
 
-// var hourNow = prompt('what time is it ?');
-// console.log(hourNow);
+|| OR
+condition 1 is true OR condition 2 is true
 
-// if (hourNow > 18){
-//     message = 'Good evening';
-
-// }else if ( hourNow > 12){
-//     message = 'good afternoon';
-// }else if (hourNow>=0){
-//     message = 'good morning';
-// }else{
-//     message = 'welcome'
-// }
-
-// document.write('<h3>' + message +'</h3>');
+*/
 
 
-// var userName = prompt('whats you name?');
-// alert('hello ' +userName);
+// example:
 
-
-/* multible lines of comments */
-
-// when does semi colon shows error?
-// why if string is empty it considers it as 0
-
-// review
 // var age = prompt('what is your age');
 
 // console.log(age);
 
-// if (age >= 18){
+// if (age >= 18 && age<=35){
 //     document.write('welcome ');
-// }else if(age < 18){
-//     document.write('sorry this is only for adults');
+// }else if(age < 18 || age>35){
+//     document.write('sorry you can\'t enter');
 // }else{
-//     document.write('please add a number');
+//     document.write('not allowed');
+// }
+
+
+// ****** DEMO ******
+
+
+/*
+
+To do list:
+
+-add image based on user input ask the user what size he wants
+
+-keep asking the user for a valid input he can only answer with big or small
+
+-Ask how many pictures does he/she wants and show them on the page
+
+*/
+
+
+// for(var i = 0 ; i<= 10 ; i=i+2){
+//     // i = 0
+
+//     document.write('<br>'+'hello ');
+// }
+
+// var i = 0;
+// while(i < 5){
+
+//     document.write('hello')
+//      i = i +1;
+//     //  i++
 // }
