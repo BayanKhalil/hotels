@@ -1,0 +1,83 @@
+/* 
+header change background
+
+move h1 to middle 
+change color
+
+for the links put them next to each other and remove any decoration
+
+make image smaller
+
+change color
+
+*/
+
+
+
+
+
+*{
+    margin: 0;
+}
+
+header{
+
+
+    background-color: rgb(12, 200, 150);
+}
+header h1{
+    /*       top right bottom  left */
+    margin: 20px 0 20px 60px;
+    
+    text-align: center;
+}
+
+header nav ul{
+    list-style: none;
+   
+}
+
+header nav ul li{
+    /* background-color: saddlebrown; */
+    display: inline-block;
+    padding: 30px;
+    /* margin-left: 10px; */
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+img{
+    /* float: right; */
+    width: 50%;
+    margin: 20px;
+}
+
+/* 
+
+ID: is only 1 element  
+
+CLASS: is like family name more than one person can have it
+
+*/
+
+/* main p{
+    color: hsl(231, 94%, 53%);
+} */
+
+/* ID */
+#mainParagraph{
+    color: black;
+    background-color: rgb(207, 67, 67);
+}
+
+/* class */
+
+.paragraphs{
+    background-color: rosybrown;
+    color: rgb(4, 92, 1);
+}
+
